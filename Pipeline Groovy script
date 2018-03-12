@@ -1,4 +1,4 @@
 node {
   stage 'Run JMeter Test'
-  bat ('C:/Users/KulkarniS02/Documents/apache-jmeter-4.0/bin/Jmeter.bat')
+  bat ('C:/Users/KulkarniS02/Documents/apache-jmeter-4.0/bin/Jmeter.bat -n -t C:/Users/KulkarniS02/Documents/apache-jmeter-4.0/bin/ebharatgas.jmx -l GitOut.jtl')
 }
