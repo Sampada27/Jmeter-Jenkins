@@ -1,4 +1,4 @@
 node {
   stage 'Run JMeter Test'
-  cmd 'cd C:/Users/KulkarniS02/Documents/apache-jmeter-4.0/bin Jmeter -n -t ebharatgas.jmx -l GitOut.jtl'
+  sh '/Users/KulkarniS02/Documents/apache-jmeter-4.0/bin/Jmeter.sh -n -t /Users/KulkarniS02/Documents/apache-jmeter-4.0/bin/ebharatgas.jmx -l GitOut.jtl'
 }
