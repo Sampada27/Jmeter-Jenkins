@@ -1,1 +1,4 @@
-Process proc=Runtime.getRuntime().exec("cmd C:\\Users\\KulkarniS02\\Documents\\AllianzNFT\\git1.bat");
+node {
+  stage 'Run JMeter Test'
+  sh 'C:/Users/KulkarniS02/Documents/apache-jmeter-4.0/bin/jmeter.sh -n -t C:/Users/KulkarniS02/Documents/apache-jmeter-4.0/bin/ebharatgas.jmx -l test.jtl'
+}
