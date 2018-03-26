@@ -1,0 +1,4 @@
+node {
+  stage 'Run JMeter Test'
+  bat 'C:/Users/KulkarniS02/Documents/apache-jmeter-4.0/bin/jmeter.bat -n -t C:/Users/KulkarniS02/Documents/apache-jmeter-4.0/bin/LMStest.jmx -l C:/Users/KulkarniS02/Documents/apache-jmeter-4.0/bin/LMSOut.jtl'
+}
